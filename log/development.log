@@ -8,3 +8,512 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+Started GET "/" for ::1 at 2022-06-23 10:25:17 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 19ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for ::1 at 2022-06-23 10:25:26 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/view, application/view with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (22.6ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:25:53 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/view, application/view with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (16.8ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:25:54 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/view, application/view with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (13.3ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:26:52 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello, application/hello with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.1ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:29:32 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (23.7ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:29:35 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (15.7ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:29:52 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (20.6ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:31:40 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (25.0ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:31:41 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (15.6ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:32:18 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.5ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:32:19 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.8ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:32:19 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (16.9ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:32:39 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (16.7ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:33:27 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.9ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:33:43 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/ello_world, application/ello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.2ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:33:44 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/ello_world, application/ello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (14.1ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:33:44 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/ello_world, application/ello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.7ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:33:45 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/ello_world, application/ello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (17.2ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:33:45 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/ello_world, application/ello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (11.9ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:33:45 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/ello_world, application/ello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.5ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:36:21 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (25.2ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:36:22 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (15.8ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:38:36 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world, application/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.0ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:39:50 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (16.9ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:39:57 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (13.2ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:40:06 -0700
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template static/hello_world with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sungwoo/Development/code/Phase 2/Week 4/rails-hello-world-lab/app/views"
+):
+  
+app/controllers/concerns/static_controller.rb:3:in `hello_world'
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sungwoo/.rvm/gems/ruby-2.7.4/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (12.4ms)
+Started GET "/hello_world" for ::1 at 2022-06-23 10:40:40 -0700
+Processing by StaticController#hello_world as HTML
+  Rendering layouts/static/hello_world.html.erb within layouts/application
+  Rendered layouts/static/hello_world.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 291ms (Views: 291.0ms | ActiveRecord: 0.0ms)
+
+
